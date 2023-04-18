@@ -1,12 +1,12 @@
 openai: 
-  api_key: REPLACE_WITH_YOUR_OPENAI_API_KEY_HERE
+  api_key: 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
 # azure:
 #   api_key: REPLACE_WITH_YOUR_AZURE_API_KEY_HERE
 #   base_url: REPLACE_WITH_YOUR_ENDPOINT_HERE
 #   deployment_name: REPLACE_WITH_YOUR_DEPLOYMENT_NAME_HERE
 #   api_version: "2022-12-01"
 huggingface:
-  token: REPLACE_WITH_YOUR_HUGGINGFACE_TOKEN_HERE # required: huggingface token @ https://huggingface.co/settings/tokens
+  token: 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 # required: huggingface token @ https://huggingface.co/settings/tokens
 dev: false
 debug: false
 log_file: logs/debug.log
