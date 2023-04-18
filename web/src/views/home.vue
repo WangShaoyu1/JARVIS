@@ -183,7 +183,7 @@ const messageListMM = computed(() => {
     // @ts-ignore
     video_urls = [...new Set(video_urls)]
     if (image_urls) {
-      
+
       for (var j = 0; j < image_urls.length; j++) {
         messageListMM.push({role: role, content: image_urls[j], type: "image", first: false})
       }
