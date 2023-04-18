@@ -164,3 +164,4 @@ dmypy.json
 
 # pycharm
 .idea/
+.DS_Store
