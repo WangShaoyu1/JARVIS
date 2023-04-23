@@ -856,7 +856,8 @@ def run_task(input, command, results, api_key, api_type, api_endpoint):
                     "inference endpoint": all_avaliable_models.get(
                         "local" if model["id"] in all_avaliable_models["local"] else "huggingface"
                     ),
-                    "likes": model.get("likes"),
+                    # "likes": model.get("likes"),
+                    "downloads": model.get("downloads"),
                     "description": model.get("description", "")[:config["max_description_length"]],
                     # "language": model.get("meta").get("language") if model.get("meta") else None,
                     "tags": model.get("meta").get("tags") if model.get("meta") else None,
